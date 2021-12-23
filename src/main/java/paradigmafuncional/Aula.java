@@ -1,5 +1,5 @@
 package paradigmafuncional;
-
+//paradigma imperativo
 public class Aula {
     public static void main(String[] args) {
         int valor = 10;
