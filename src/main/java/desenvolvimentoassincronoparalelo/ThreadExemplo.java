@@ -27,6 +27,7 @@ class BarraDeCarregamento extends Thread{
     private Thread iniciarGeradorPdf;
 
     public BarraDeCarregamento(Thread iniciarGeradorPdf){
+
         this.iniciarGeradorPdf =iniciarGeradorPdf;
     }
     @Override
@@ -34,7 +35,7 @@ class BarraDeCarregamento extends Thread{
         while (true){
             try {
                 Thread.sleep(500);
-                if (iniciarGeradorPdf.isAlive()){
+                if (!iniciarGeradorPdf.isAlive()){
                     break;
                 }
                 System.out.println("Loading ...");
