@@ -8,6 +8,9 @@ import java.util.stream.Collectors;
 public class InferenciaExemplo {
     public static void main(String[] args) {
         connectAndPrintURLJavaOracle();
+        printarNomeCompleto("Sarah", "Tumenas");
+        printarSoma(10,15,20);
+
     }
 
     private static void connectAndPrintURLJavaOracle()  {
@@ -35,6 +38,7 @@ public class InferenciaExemplo {
             for (var numero = 0; numero < numeros.length;numero++){
                 soma+= numeros[numero];
             }
+            System.out.println("A soma é :: " + soma);
         }
     }
 }
