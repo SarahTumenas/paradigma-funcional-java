@@ -1,2 +1,4 @@
 rootProject.name = 'ParadigmaFuncional'
+include 'java.modulo.core'
+include 'java.modulo.utils'
 
