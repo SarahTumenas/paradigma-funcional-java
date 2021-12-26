@@ -1,9 +1,9 @@
-package java.modulo.utils.operacoes;
+package modulo.utils.operacoes;
 
-import java.modulo.utils.operacoes.internal.DivHelper;
-import java.modulo.utils.operacoes.internal.MultHelper;
-import java.modulo.utils.operacoes.internal.SubHelper;
-import java.modulo.utils.operacoes.internal.SumHelper;
+import modulo.utils.operacoes.internal.DivHelper;
+import modulo.utils.operacoes.internal.MultHelper;
+import modulo.utils.operacoes.internal.SubHelper;
+import modulo.utils.operacoes.internal.SumHelper;
 
 
 public class Calculadora {

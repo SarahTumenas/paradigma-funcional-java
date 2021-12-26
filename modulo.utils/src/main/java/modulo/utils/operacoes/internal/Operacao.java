@@ -1,4 +1,4 @@
-package java.modulo.utils.operacoes.internal;
+package modulo.utils.operacoes.internal;
 
 public interface Operacao {
     int execute(int a, int b);

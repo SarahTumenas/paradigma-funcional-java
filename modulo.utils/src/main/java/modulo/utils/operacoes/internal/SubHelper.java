@@ -1,7 +1,5 @@
-package java.modulo.utils.operacoes.internal;
+package modulo.utils.operacoes.internal;
 
-
-import java.modulo.utils.operacoes.internal.Operacao;
 
 public class SubHelper implements Operacao {
     @Override

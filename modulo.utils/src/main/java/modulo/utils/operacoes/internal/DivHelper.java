@@ -1,4 +1,4 @@
-package java.modulo.utils.operacoes.internal;
+package modulo.utils.operacoes.internal;
 
 
 public class DivHelper implements Operacao {

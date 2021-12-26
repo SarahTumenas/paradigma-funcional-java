@@ -1,6 +1,6 @@
-package java.modulo.core;
+package modulo.core;
 
-import java.modulo.utils.operacoes.Calculadora;
+import modulo.utils.operacoes.Calculadora;
 
 public class Runner {
     public static void main(String[] args) {
